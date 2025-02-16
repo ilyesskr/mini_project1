@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Configuration</title>
+    <link rel="stylesheet" href="part2.css">
+</head>
+<body>
+    <div class="config-container">
+        <h1>Configure Your Quiz</h1>
+        <form id="quiz-config">
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="9">General Knowledge</option>
+                <option value="17">Science & Nature</option>
+                <option value="18">Science: Computers</option>
+                <option value="19">Science: Mathematics</option>
+                <option value="22">Geography</option>
+                <option value="23">History</option>
+                <option value="21">Sports</option>
+                <option value="24">Politics</option>
+            </select>
+
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty" name="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <label for="type">Type:</label>
+            <select id="type" name="type">
+                <option value="multiple">Multiple Choice</option>
+                <option value="boolean">True/False</option>
+            </select>
+
+            <label for="amount">Number of Questions:</label>
+            <input type="number" id="amount" name="amount" min="1" max="50" value="10">
+
+            <button type="submit">Start Quiz</button>
+        </form>
+    </div>
+
+    <div id="quiz-container" style="display: none;">
+    </div>
+
+    <script src="part2.js"></script>
+</body>
+</html>
