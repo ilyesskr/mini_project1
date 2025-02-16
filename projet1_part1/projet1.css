@@ -1,0 +1,145 @@
+
+
+body {
+    background-image: url(https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg);
+
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100vw; 
+    margin: 0;
+    overflow: hidden; 
+
+    animation: fadeIn 1.5s ease-in-out;
+
+
+}
+.qst{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    height: 300px;
+    border-radius: 50px;
+    position: relative;
+    top: 0px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    gap: 50px;
+}
+.left{
+    display: flex;
+    
+    gap: 50px;
+    position: relative;
+    
+}
+.right{
+    display: flex;
+    
+    gap: 50px;
+    position: relative;
+}
+.opt{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+
+}
+.opt:hover{
+    background-color: lightgray;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    left: 730px;
+    display: none;
+}
+button{
+
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+.Minuterie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 500px;
+}
+.div_result{
+    display:none;
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    border-radius: 50px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.result{
+    width: 800px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.res{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #3672A9;
+
+}
+.container{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+.b{
+    font-size: 40px;
+}
